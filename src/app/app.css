@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.navbar {
+  min-height: 65px;
+}
+
+.nav-link {
+  margin-left: 12px;
+}
+
+.nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    padding-top: 12px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+}
